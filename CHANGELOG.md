@@ -32,8 +32,8 @@ Ler este arquivo primeiro. Ele traz o mapa do site e o histórico, para não ser
 
 ### 2026-10-15 — código no GitHub
 
-- **Pedido do Paulo:** abrir o site para outra programadora editar.
-- **Repositório privado:** https://github.com/paulofidelisptf-arch/youth-delegates-voice, com só esta pasta. O `.gitignore` deixa de fora `_revisao/`, `.vercel/` e `.env*`. Os brutos, os vídeos em alta e os scripts de `../ferramentas/` não entram.
+- **Pedido do Paulo:** abrir o site para outra programadora editar. O repositório nasceu privado e, no mesmo dia, o Paulo pediu para deixá-lo público.
+- **Repositório público:** https://github.com/paulofidelisptf-arch/youth-delegates-voice, com só esta pasta. Os `.md` (TODO, BACKLOG, relatório), que a Vercel não publica, ficam visíveis lá. O `.gitignore` deixa de fora `_revisao/`, `.vercel/` e `.env*`. Os brutos, os vídeos em alta e os scripts de `../ferramentas/` não entram.
 - **README.md novo,** para quem chega: como rodar no computador, a regra dos textos bilíngues e o fluxo de branch e Pull Request.
 - **Publicação:** ainda pelo `npx vercel deploy --prod`; o GitHub não está ligado à Vercel.
 
