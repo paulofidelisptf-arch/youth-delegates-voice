@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agenda · Youth Delegates Voice</title>
+<meta name="description" content="Content calendar of the Youth Delegates Voice project: live webinars with translated captions, open agenda sessions, the theme of the month and the bi-weekly newsletter.">
+<link rel="canonical" href="https://youthvoicewireframe.vercel.app/agenda.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Agenda · Youth Delegates Voice">
+<meta property="og:description" content="What’s coming up: webinars, open agenda sessions and the theme of the month.">
+<meta property="og:image" content="https://youthvoicewireframe.vercel.app/assets/img/og.jpg">
+<meta name="theme-color" content="#FFFF00">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="agenda" data-title-en="Agenda · Youth Delegates Voice" data-title-pt="Agenda · Youth Delegates Voice">
+<a class="skip" href="#main"><span lang="en">Skip to content</span><span lang="pt">Pular para o conteúdo</span></a>
+
+<header class="topbar">
+  <div class="wrap topbar__in">
+    <a class="mark" href="index.html" aria-label="Youth Delegates Voice"><span class="mark__box">YOUTH<br>DELEGATES<br>VOICE</span></a>
+    <nav class="nav" aria-label="Sections">
+      <a href="index.html#story"><span lang="en">Story</span><span lang="pt">História</span></a>
+      <a href="index.html#video"><span lang="en">Videos</span><span lang="pt">Vídeos</span></a>
+      <a href="index.html#proposal"><span lang="en">Proposal</span><span lang="pt">Proposta</span></a>
+      <a class="nav__keep" href="agenda.html" aria-current="page"><span lang="en">Agenda</span><span lang="pt">Agenda</span></a>
+      <a class="nav__keep nav__cta" href="participe.html"><span lang="en">Join in!</span><span lang="pt">Participe!</span></a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language / Idioma">
+      <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-set-lang="pt" aria-pressed="false">PT</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<section class="sub-hero">
+  <div class="wrap">
+    <p class="kicker"><span lang="en">Agenda · content calendar</span><span lang="pt">Agenda · calendário de conteúdo</span></p>
+    <h1 class="display display--md">
+      <span lang="en">What’s <mark class="hl hl--black">coming up</mark></span>
+      <span lang="pt">O que vem <mark class="hl hl--black">por aí</mark></span>
+    </h1>
+    <p class="lede">
+      <span lang="en">Live webinars with translated captions, open agenda sessions, the theme of the month and the bi-weekly newsletter. Click an item to see how it will happen and to register.</span>
+      <span lang="pt">Webinars ao vivo com legendas traduzidas, pautas abertas, o tema do mês e a newsletter quinzenal. Clique num item para ver como vai acontecer e se inscrever.</span>
+    </p>
+    <p class="kicker"><span lang="en">Proposed calendar: dates and topics to be confirmed</span><span lang="pt">Calendário proposto: datas e temas a confirmar</span></p>
+  </div>
+</section>
+
+<section class="sec sec--grey" aria-labelledby="como-title">
+  <div class="wrap">
+    <h2 id="como-title" class="h2"><span lang="en">How it works</span><span lang="pt">Como funciona</span></h2>
+    <ul class="legenda" role="list">
+      <li><b><span lang="en">Theme of the month</span><span lang="pt">Tema do mês</span></b><span lang="en">One subject per month, chosen from the survey answers. It guides the webinar and the newsletter.</span><span lang="pt">Um assunto por mês, escolhido a partir das respostas da pesquisa. Ele guia o webinar e a newsletter.</span></li>
+      <li><b><span lang="en">Live webinar</span><span lang="pt">Webinar ao vivo</span></b><span lang="en">Guests from different countries, translated captions, moderation and time for questions.</span><span lang="pt">Convidados de países diferentes, legenda traduzida, moderação e tempo para perguntas.</span></li>
+      <li><b><span lang="en">Open agenda</span><span lang="pt">Pauta aberta</span></b><span lang="en">A conversation circle: participants suggest and vote on the topic at the start.</span><span lang="pt">Uma roda de conversa: quem participa sugere e vota o tema no começo.</span></li>
+      <li><b><span lang="en">Bi-weekly newsletter</span><span lang="pt">Newsletter quinzenal</span></b><span lang="en">Everything in a 5-minute read, for those who can only check in once or twice a month.</span><span lang="pt">Tudo em 5 minutos de leitura, para quem só consegue acompanhar uma ou duas vezes por mês.</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" aria-label="Calendar">
+  <div class="wrap">
+    <div class="filtros" role="group" aria-label="Filter">
+      <button type="button" data-filtro="todos" aria-pressed="true"><span lang="en">All</span><span lang="pt">Tudo</span></button>
+      <button type="button" data-filtro="webinar" aria-pressed="false"><span lang="en">Webinars</span><span lang="pt">Webinars</span></button>
+      <button type="button" data-filtro="aberta" aria-pressed="false"><span lang="en">Open agenda</span><span lang="pt">Pauta aberta</span></button>
+      <button type="button" data-filtro="newsletter" aria-pressed="false">Newsletter</button>
+      <button type="button" data-filtro="pesquisa" aria-pressed="false"><span lang="en">Survey</span><span lang="pt">Pesquisa</span></button>
+    </div>
+    <div id="agenda-lista"></div>
+    <noscript><p>Enable JavaScript to see the calendar. / Ative o JavaScript para ver o calendário.</p></noscript>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__grid">
+    <div>
+      <p class="foot__mark">YOUTH DELEGATES VOICE</p>
+      <p>
+        <span lang="en">Feedback and contributions to the Youth Delegates Voice proposal, by Paulo Thiago, Dounia Zellal and young activists who met at the Global Assembly. <b>This is not an official Amnesty International website.</b> <b>This is a presentation wireframe.</b></span>
+        <span lang="pt">Feedback e contribuições para a proposta Youth Delegates Voice, por Paulo Thiago, Dounia Zellal e jovens ativistas que se conheceram na Assembleia Global. <b>Este não é um site oficial da Anistia Internacional.</b> <b>Isto é apenas um wireframe de apresentação.</b></span>
+      </p>
+    </div>
+    <div>
+      <p class="social social--foot">
+        <a href="https://www.instagram.com/opauloethiago/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.linkedin.com/in/opauloethiago/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.tiktok.com/@opauloethiago" target="_blank" rel="noopener">TikTok</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<div class="aviso" id="aviso" role="status" hidden></div>
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/agenda.js" defer></script>
+</body>
+</html>
